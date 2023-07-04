@@ -1,4 +1,4 @@
-import getSongs from "@/actions/getSongs";
+
 import Header from "@/components/Header";
 import ListItem from "@/components/ListItem";
 
@@ -7,8 +7,6 @@ import AboutContent from "./component/AboutContent";
 export const revalidate = 0;
 
 export default async function About() {
-  
-
   
 
   return (
