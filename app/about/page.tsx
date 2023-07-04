@@ -7,7 +7,7 @@ import AboutContent from "./component/AboutContent";
 export const revalidate = 0;
 
 export default async function About() {
-  const songs = await getSongs();
+  
 
   
 
@@ -57,7 +57,7 @@ export default async function About() {
             History of Musika
           </h1>
         </div>
-        <AboutContent songs={songs} />
+        <AboutContent/>
       </div>
     </div>
   )
